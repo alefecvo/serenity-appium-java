@@ -21,7 +21,7 @@ public class FlipboardTest extends BaseTest {
     @Test
     public void loginTest() {
         flipboard.clickGetStartedButton();
-        flipboard.chooseTopics(4);
+        flipboard.chooseTopics(3);
         flipboard.clickContinueButton();
     }
 }

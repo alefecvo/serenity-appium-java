@@ -1,6 +1,7 @@
 package steps;
 
 import net.thucydides.core.annotations.Step;
+import org.junit.Assert;
 import screens.ChooseTopicsScreen;
 import screens.HomeScreen;
 import screens.LoginScreen;
@@ -51,6 +52,11 @@ public class FlipboardSteps {
     @Step
     public void scrollDown(int count){
         loginScreen.scrollDown(count);
+    }
+
+    @Step
+    public void verifySearchText(String text){
+        Assert.assertTrue(searchScreen.verifySearchText(text));
     }
 
 }
