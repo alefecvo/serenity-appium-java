@@ -27,14 +27,14 @@ public class SearchItemTest extends BaseTest {
     @Steps
     FlipboardSteps flipboard;
 
-    @Test
-    public void searchItemTest(){
-        flipboard.clickGetStartedButton();
-        flipboard.chooseTopics(3);
-        flipboard.clickContinueButton();
-        flipboard.skipLoginButton();
-        flipboard.selectBottomPanel(3);
-        flipboard.searchFlipBoard(searchitem);
-        flipboard.verifySearchText(searchitem);
-    }
+//    @Test
+//    public void searchItemTest(){
+//        flipboard.clickGetStartedButton();
+//        flipboard.chooseTopics(3);
+//        flipboard.clickContinueButton();
+//        flipboard.skipLoginButton();
+//        flipboard.selectBottomPanel(3);
+//        flipboard.searchFlipBoard(searchitem);
+//        flipboard.verifySearchText(searchitem);
+//    }
 }

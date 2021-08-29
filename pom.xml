@@ -110,16 +110,11 @@
                 <version>2.22.1</version>
                 <configuration>
                     <includes>
-
-                        <!-- <include>**/testcases/Parameterization.java</include> -->
-                        <include>**/testcases/**/*.java</include>
-                        <include>**/testcases/*.java</include>
+                        <include>**/tests/**/*.java</include>
+                        <include>**/tests/*.java</include>
 
                     </includes>
 
-                    <!--	<parallel>classes</parallel>
-                        <threadCount>2</threadCount>
-                        <forkCount>2C</forkCount> -->
                 </configuration>
                 <executions>
                     <execution>
